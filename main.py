@@ -34,13 +34,13 @@ def otp():
             widget.destroy()
         otp = random.randint(1000, 9999)
 
-        account_sid = 'AC4f691a42ec5c9c1dedc2f1d03edb6216'
-        auth_token = 'ef1dd0268579624f378568d37f7d17e2'
+        account_sid = 
+        auth_token = 
         client = Client(account_sid, auth_token)
         message = client.messages.create(
             body='Hello! Your OTP is: ' + str(otp) + '\nDo not share with anyone.',
-            from_='+19513192292',
-            to='+918788417576'
+            from_=,
+            to=
         )
 
         print("OTP Sent Successfully")
