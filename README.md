@@ -8,9 +8,11 @@
 
 * Fuzzy match algorithm is used to match the user spoken content to the standard questions.
 
+* A WhatsApp message can be sent using voice command without opening anything anywhere. It uses Twilio API.
+
 * In this way, the assistant follows ethical compliance and is not answerable to personal adverserial questions.
 
-* It has twilio chatbot service integrated that can be activated using voice.
+* It has Twilio ChatBot service integrated that can be activated using voice.
 
 * Chatbot is trained on IBM Watson service that is able to serve customers om WhatsApp.
 
